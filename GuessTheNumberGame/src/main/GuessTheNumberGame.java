@@ -15,7 +15,7 @@ public class GuessTheNumberGame
         int maxGuesses = 3;
         int userGuesses = 0;
         int randomNumber = rand.nextInt( 10 - 1 + 1 ) + 1;
-        System.out.println( randomNumber );
+        // debug System.out.println( randomNumber );
         
         System.out.println( "Welcome to Dan's Number Guessing Game!" );
         System.out.println( "The random number is between 1 and 19." );
